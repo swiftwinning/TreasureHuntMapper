@@ -1,5 +1,7 @@
 package treasureHuntMapper;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,10 +17,21 @@ public class Map {
     private String name;
 
     private String imageLink;
+    
+    /*
+    private List<Room> roomsList;
+    */
+    
+    
+    private String mapMetaJSON;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+	
+	public Map() {
+		
 	}
 
 }

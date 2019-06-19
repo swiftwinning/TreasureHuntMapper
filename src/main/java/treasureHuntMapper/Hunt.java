@@ -1,5 +1,7 @@
 package treasureHuntMapper;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,9 +16,23 @@ public class Hunt {
 
     private String name;
     
+    /*
+    private List<Clue> cluesList;
+    
+    private Map map;
+    */
+    
+    
+    
+    private String huntMetaJSON;
+    
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+    
+    public Hunt() {
+		
 	}
 
 }

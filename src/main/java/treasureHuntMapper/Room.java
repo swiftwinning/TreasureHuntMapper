@@ -14,4 +14,10 @@ public class Room {
 
     private String name;
     
+    //  Must refer back to a map
+    
+    public Room() {
+		
+	}
+    
 }
